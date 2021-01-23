@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shopping cart 🛒</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+	 <!-----------------------header------------------->
+  <div class="header">
+	<div class="contatiner">
+	<div class ="navbar">
+	<div class="logo">  
+		<img src="images/onlinelogomaker-logo.jpg"  alt=" "  width="125px">    
+		</div>
+		<nav>
+			<ul>
+			        <li><a href=""> Home </a></li>
+				    <li><a href="">Products </a></li>
+		            <li><a href=""> Account </a></li>
+				    <li><a href=""cart.php" target="_blank"">🛒 </a></li>
+				
+			</ul>
+     
+		
+		</nav>
+	
+	</div> 
+		<div class = "bagcart"> 
+		<img src="images/shopping pagg.png" alt="" width="50px" height="50px"><br>
+			<a href="Cartt.php" target="_blank">Sign in</a> to see the products you previously added <br>
+		<div  class="go-to-shopping">
+		<a href="Library.html" target="_self" > go to shopping</a>
+		</div>
+		</div>
+		
+</body>
+</html>
+
+css
+	
+/*----------------Cart items php----------------*/
+.bagcart{
+	
+	 position: relative;
+    left: 500px;
+	top:200px;
+
+	
+}
+.bagcart img{
+	position: relative;
+  left: 120px;
+
+
+}
+.bagcart a{
+ 	 color:mediumvioletred;
+}
+.go-to-shopping {
+ position: relative;
+  left: 120px;
+	top:20px;
+	background:#92AEA7;
+	display:inline;
+	color:#F4F4F4;
+	padding: 3px;
+	border-radius: 30px;
+	transition:background 0.5s; 
+}
+.go-to-shopping:hover{
+	background:#D2C7C7;
+}

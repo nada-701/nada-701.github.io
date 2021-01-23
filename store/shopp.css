@@ -1,0 +1,75 @@
+
+
+
+.cartbody{
+			text-align: center;
+			background-color:whitesmoke;
+			font-size: 14px;
+		}
+		.h1cart {
+			color:forestgreen;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", Helvetica, Arial, "sans-serif";
+			margin-bottom: 20px;
+			}
+
+		h2 {
+			color:gray;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-family:"Gill Sans", "Gill Sans MT", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			}
+				
+		img{
+			height: 90px;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+			border-radius: 100%;
+		}
+		div{
+			display: inline-block;
+			padding: 10px;
+			margin: 10px;
+			border: thin solid lightgray;
+			border-radius: 10px;
+			
+		}
+		input[type=submit], button{
+			width: 10%;
+			border: #006745 thick solid;
+			background: #006745;
+			padding:5px;
+			font-size: 14px;
+			color:whitesmoke;
+			border-radius: 10px;
+			text-transform: uppercase;
+		}
+		input[type=number],	input[type='text']{
+			width: 30px;
+			border-radius: 20%;
+			border: #C3C3C3 thin solid;
+			padding: 5px;
+		
+		}
+		input[type='text']{
+			background: #989898;
+			color:white;
+			width: 20px;
+			pading:5px;
+		}
+		p{
+			font-size: 16px;
+			padding:0px;
+		}
+	
+		.result{
+			padding: 10px;
+			border: none;
+		}
+		.alart{
+			color:red;
+			font-size: 20px;
+		}		
